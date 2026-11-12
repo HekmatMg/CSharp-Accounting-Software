@@ -1,0 +1,64 @@
+# Visual Studio
+.vs/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Build files
+[Bb]in/
+[Oo]bj/
+[Dd]ebug/
+[Rr]elease/
+x64/
+x86/
+[Ll]og/
+[Ll]ogs/
+artifacts/
+
+# NuGet
+packages/
+*.nupkg
+
+# Visual Studio extensions
+_ReSharper*/
+*.DotSettings.user
+
+# Database files
+*.mdf
+*.ldf
+*.ndf
+*.db
+*.sqlite
+*.sqlite3
+
+# Backup files
+*.bak
+*.old
+*.tmp
+*.log
+
+# Sensitive configuration
+.env
+.env.*
+!.env.example
+appsettings.Development.json
+secrets.json
+
+# Publishing credentials
+*.publishsettings
+*.pubxml.user
+
+# Certificates and private keys
+*.pfx
+*.p12
+*.key
+
+# Operating system
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE
+.idea/
+.vscode/
